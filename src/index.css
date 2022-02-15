@@ -12,6 +12,7 @@
   justify-content: center;
   background-color:
       hsl(220deg 100% 80%);
+  padding: 30px;
 }
 .main1{
   display: flex;
@@ -38,8 +39,8 @@
   margin-top: 25px;
   margin-bottom: 10px;
   display: flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
   border-bottom: 2px solid #8e98a1;
 }
 .input{
@@ -132,3 +133,38 @@
    text-decoration: none;
  }
 
+ @media screen and (max-width: 700px){
+.main1{
+  min-width: 20rem;
+}
+.input{
+  font-size: 14px;
+}
+.btn {
+  width: 34px;
+}
+.text1{
+  font-size: 14px;
+}
+.editBtn{
+  width: 29px;
+}
+.delBtn {
+  width: 29px;
+}
+.btn {
+  width: 32px;
+}
+}
+
+@media screen and (max-width: 450px){
+.editBtn {
+    width: 27px;
+}
+.delBtn {
+  width: 27px;
+}
+.main1 {
+  min-width: 18rem;
+}
+}
