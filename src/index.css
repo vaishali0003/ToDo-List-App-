@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
+
 .main{
   min-height: 100vh;
   width: 100%;
@@ -14,6 +15,7 @@
       hsl(220deg 100% 80%);
   padding: 30px;
 }
+
 .main1{
   display: flex;
   justify-content: center;
@@ -23,13 +25,14 @@
   border-radius: 11px;
   padding: 14px;
   box-shadow: 1px 2px 8px hsl(0deg 0% 0% / 25%);
- 
 }
+
 .main11{
   width: 95%;
   text-align: center;
   padding: 10px 0;
 }
+
 .heading{
   background: -webkit-linear-gradient(#eee, #3949ab);
   -webkit-background-clip: text;
@@ -73,6 +76,7 @@
 }
 .listItem{
   display: flex;
+  align-items: center;
   width: 100%;
   margin: 11px 0px;
   position: relative;
@@ -90,7 +94,7 @@
   cursor: pointer;
   border: none;
   background: none;
-  width: 31px;
+  width: 26px;
   position: absolute;
   right: 9px;
 }
@@ -102,9 +106,19 @@
   cursor: pointer;
   border: none;
   background: none;
-  width: 31px;
+  width: 26px;
   position: absolute;
   right: 49px;
+}
+.editBtnN{
+  cursor: pointer;
+  border: none;
+  background: none;
+  width: 31px;
+}
+.editBtnN img{
+  width: 100%;
+  height: 100%;
 }
 .editBtn img{
   width: 100%;
@@ -147,10 +161,10 @@
   font-size: 14px;
 }
 .editBtn{
-  width: 29px;
+  width: 25px;
 }
 .delBtn {
-  width: 29px;
+  width: 25px;
 }
 .btn {
   width: 32px;
@@ -159,12 +173,16 @@
 
 @media screen and (max-width: 450px){
 .editBtn {
-    width: 27px;
+    width: 23px;
 }
 .delBtn {
-  width: 27px;
+  width: 23px;
 }
 .main1 {
   min-width: 18rem;
+}
+.removeBtn{
+  padding: 11px 31px;
+  font-size: 14px;
 }
 }
